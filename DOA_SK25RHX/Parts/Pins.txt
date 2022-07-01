@@ -1,0 +1,9 @@
+ (6) Mill-Max #3103200210000080 @ $0.20 each
+Contact Finish: 20μ" Gold Over Nickel
+Flange Diameter: 0.070" (1.77mm)
+Plated Thru Hole Diameter: 0.043" (1.09mm)
+Pin Diameter: 0.040" (1.02mm)
+Length: 0.402" (10.21mm)
+
+https://www.digikey.de/products/de?keywords=3103-2-00-21-00-00-08-0
+https://capi-gear.com/catalog/product_info.php?products_id=215

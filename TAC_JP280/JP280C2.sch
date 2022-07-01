@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack3_Switch SK14
+U 1 1 5FC3A747
+P 1700 1750
+F 0 "SK14" H 1682 2175 50  0000 C CNN
+F 1 "OSC" H 1682 2084 50  0000 C CNN
+F 2 "TAC:CL13345" H 1700 1750 50  0001 C CNN
+F 3 "~" H 1700 1750 50  0001 C CNN
+	1    1700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch SK13
+U 1 1 5FC3CD6D
+P 1700 2750
+F 0 "SK13" H 1682 3175 50  0000 C CNN
+F 1 "Talkback" H 1682 3084 50  0000 C CNN
+F 2 "TAC:CL13345" H 1700 2750 50  0001 C CNN
+F 3 "~" H 1700 2750 50  0001 C CNN
+	1    1700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch SK11
+U 1 1 5FC3D3FC
+P 1700 3750
+F 0 "SK11" H 1682 4175 50  0000 C CNN
+F 1 "Left Tape 1" H 1682 4084 50  0000 C CNN
+F 2 "TAC:CL13345" H 1700 3750 50  0001 C CNN
+F 3 "~" H 1700 3750 50  0001 C CNN
+	1    1700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch SK12
+U 1 1 5FC3DE3E
+P 1700 4750
+F 0 "SK12" H 1682 5175 50  0000 C CNN
+F 1 "Right Tape 1" H 1682 5084 50  0000 C CNN
+F 2 "TAC:CL13345" H 1700 4750 50  0001 C CNN
+F 3 "~" H 1700 4750 50  0001 C CNN
+	1    1700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch SK9
+U 1 1 5FC3E872
+P 1700 5750
+F 0 "SK9" H 1682 6175 50  0000 C CNN
+F 1 "Left Tape 2" H 1682 6084 50  0000 C CNN
+F 2 "TAC:CL13345" H 1700 5750 50  0001 C CNN
+F 3 "~" H 1700 5750 50  0001 C CNN
+	1    1700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_Switch SK10
+U 1 1 5FC3F387
+P 1700 6750
+F 0 "SK10" H 1682 7175 50  0000 C CNN
+F 1 "Right Tape 2" H 1682 7084 50  0000 C CNN
+F 2 "TAC:CL13345" H 1700 6750 50  0001 C CNN
+F 3 "~" H 1700 6750 50  0001 C CNN
+	1    1700 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J2
+U 1 1 5FC42E55
+P 4950 6050
+F 0 "J2" H 4868 5325 50  0000 C CNN
+F 1 "Ribbon Cable (B)" H 4868 5416 50  0000 C CNN
+F 2 "TAC:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical_reversed" H 4950 6050 50  0001 C CNN
+F 3 "~" H 4950 6050 50  0001 C CNN
+	1    4950 6050
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5FC516D0
+P 2150 1500
+F 0 "R6" V 2050 1550 50  0000 R CNN
+F 1 "10R" V 2150 1600 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2080 1500 50  0001 C CNN
+F 3 "~" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FC52D89
+P 2450 1750
+F 0 "R5" V 2550 1750 50  0000 C CNN
+F 1 "10k" V 2450 1750 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2380 1750 50  0001 C CNN
+F 3 "~" H 2450 1750 50  0001 C CNN
+	1    2450 1750
+	0    1    1    0   
+$EndComp
+Text Notes 5050 3100 0    50   ~ 0
+L
+Text Notes 5050 3200 0    50   ~ 0
+R
+Text Notes 5050 3300 0    50   ~ 0
+PFL
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5FC4B371
+P 4950 3150
+F 0 "J3" H 4868 2825 50  0000 C CNN
+F 1 "Meters" H 4868 2916 50  0000 C CNN
+F 2 "TAC:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical_reversed" H 4950 3150 50  0001 C CNN
+F 3 "~" H 4950 3150 50  0001 C CNN
+	1    4950 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J1
+U 1 1 5FC404B6
+P 4950 2050
+F 0 "J1" H 4868 1325 50  0000 C CNN
+F 1 "Ribbon Cable (A)" H 4868 1416 50  0000 C CNN
+F 2 "TAC:Molex_KK-254_AE-6410-10A_1x10_P2.54mm_Vertical_reversed" H 4950 2050 50  0001 C CNN
+F 3 "~" H 4950 2050 50  0001 C CNN
+	1    4950 2050
+	1    0    0    1   
+$EndComp
+NoConn ~ 4750 6450
+NoConn ~ 4750 5550
+NoConn ~ 4750 5650
+NoConn ~ 4750 2450
+NoConn ~ 4750 2250
+NoConn ~ 4750 2050
+NoConn ~ 1900 6750
+NoConn ~ 1900 6850
+NoConn ~ 1900 7050
+NoConn ~ 1900 6050
+NoConn ~ 1900 5850
+NoConn ~ 1900 5750
+NoConn ~ 1900 4750
+NoConn ~ 1900 4850
+NoConn ~ 1900 5050
+NoConn ~ 1900 3750
+NoConn ~ 1900 3850
+NoConn ~ 1900 4050
+NoConn ~ 1900 1850
+NoConn ~ 1900 2050
+NoConn ~ 1900 3050
+NoConn ~ 1900 2850
+$Comp
+L power:GND #PWR0101
+U 1 1 5FC5B998
+P 2000 7150
+F 0 "#PWR0101" H 2000 6900 50  0001 C CNN
+F 1 "GND" H 2005 6977 50  0000 C CNN
+F 2 "" H 2000 7150 50  0001 C CNN
+F 3 "" H 2000 7150 50  0001 C CNN
+	1    2000 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7150 2000 6650
+Wire Wire Line
+	2000 4550 1900 4550
+Wire Wire Line
+	2000 4650 1900 4650
+Connection ~ 2000 4650
+Wire Wire Line
+	2000 4650 2000 4550
+Wire Wire Line
+	2000 5550 1900 5550
+Connection ~ 2000 5550
+Wire Wire Line
+	2000 5550 2000 4650
+Wire Wire Line
+	2000 5650 1900 5650
+Connection ~ 2000 5650
+Wire Wire Line
+	2000 5650 2000 5550
+Wire Wire Line
+	2000 6550 1900 6550
+Connection ~ 2000 6550
+Wire Wire Line
+	2000 6550 2000 5650
+Wire Wire Line
+	2000 6650 1900 6650
+Connection ~ 2000 6650
+Wire Wire Line
+	2000 6650 2000 6550
+Wire Wire Line
+	2000 4550 2000 3650
+Wire Wire Line
+	2000 1550 1900 1550
+Connection ~ 2000 4550
+Wire Wire Line
+	2000 1650 1900 1650
+Connection ~ 2000 1650
+Wire Wire Line
+	2000 1650 2000 1550
+Wire Wire Line
+	2000 2550 1900 2550
+Connection ~ 2000 2550
+Wire Wire Line
+	2000 2550 2000 1650
+Wire Wire Line
+	2000 2650 1900 2650
+Connection ~ 2000 2650
+Wire Wire Line
+	2000 2650 2000 2550
+Wire Wire Line
+	2000 3550 1900 3550
+Connection ~ 2000 3550
+Wire Wire Line
+	2000 3550 2000 2650
+Wire Wire Line
+	2000 3650 1900 3650
+Connection ~ 2000 3650
+Wire Wire Line
+	2000 3650 2000 3550
+Wire Wire Line
+	4750 5750 4400 5750
+Wire Wire Line
+	4400 5750 4400 4950
+Wire Wire Line
+	4400 4950 1900 4950
+Wire Wire Line
+	4750 5950 4500 5950
+Wire Wire Line
+	4500 5950 4500 3950
+Wire Wire Line
+	4500 3950 1900 3950
+Wire Wire Line
+	4750 6150 4300 6150
+Wire Wire Line
+	4300 6150 4300 6950
+Wire Wire Line
+	4300 6950 1900 6950
+Wire Wire Line
+	4750 6350 4400 6350
+Wire Wire Line
+	4400 6350 4400 5950
+Wire Wire Line
+	4400 5950 1900 5950
+Wire Wire Line
+	4750 1550 4000 1550
+Wire Wire Line
+	4000 1550 4000 2750
+Wire Wire Line
+	4000 2750 1900 2750
+Wire Wire Line
+	4750 1650 4100 1650
+Wire Wire Line
+	4100 1650 4100 2950
+Wire Wire Line
+	4100 2950 1900 2950
+Wire Wire Line
+	4750 1750 2700 1750
+Wire Wire Line
+	2700 1750 2700 1950
+Wire Wire Line
+	2700 1950 1900 1950
+Wire Wire Line
+	1900 1750 2150 1750
+Wire Wire Line
+	2150 1750 2150 1650
+Connection ~ 2150 1750
+Wire Wire Line
+	2150 1750 2300 1750
+Wire Wire Line
+	2150 1350 2150 1250
+Wire Wire Line
+	2150 1250 2000 1250
+Wire Wire Line
+	2000 1250 2000 1550
+Connection ~ 2000 1550
+Wire Wire Line
+	2700 1750 2600 1750
+Connection ~ 2700 1750
+Wire Wire Line
+	4750 3050 4650 3050
+Wire Wire Line
+	4650 3050 4650 2350
+Wire Wire Line
+	4650 2350 4750 2350
+Wire Wire Line
+	4750 3150 4550 3150
+Wire Wire Line
+	4550 3150 4550 2150
+Wire Wire Line
+	4550 2150 4750 2150
+Wire Wire Line
+	4750 3250 4450 3250
+Wire Wire Line
+	4450 3250 4450 1950
+Wire Wire Line
+	4450 1950 4750 1950
+$EndSCHEMATC

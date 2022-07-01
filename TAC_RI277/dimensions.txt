@@ -1,0 +1,7 @@
+Segor Platine FR2 75x100-35µ
+RI277C Maße 36x66
+
+Breite RI277D:
+(75-1)/2 = 37
+Länge 100-1-37 = 62
+agbcol page handling, page scale: none

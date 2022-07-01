@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name GL270D-rescue)(type Legacy)(uri ${KIPRJMOD}/GL270D-rescue.lib)(options "")(descr ""))
+)

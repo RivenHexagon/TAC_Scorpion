@@ -311,14 +311,9 @@ Wire Wire Line
 Wire Wire Line
 	1250 4600 1250 4700
 Wire Wire Line
-	1100 5100 950  5100
+	1100 5100 1000 5100
 Wire Wire Line
-	950  5100 950  4600
-Wire Wire Line
-	950  3900 950  3400
-Wire Wire Line
-	950  3400 1100 3400
-Connection ~ 950  3900
+	1000 3400 1100 3400
 Wire Wire Line
 	1750 3900 1850 3900
 Wire Wire Line
@@ -784,7 +779,6 @@ Wire Wire Line
 Connection ~ 2050 4600
 Wire Wire Line
 	2350 4700 2350 4250
-Connection ~ 950  4600
 Connection ~ 2050 4250
 Connection ~ 2350 4250
 Wire Wire Line
@@ -1328,5 +1322,27 @@ F 2 "" H 6050 3800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6050 3800 50  0001 C CNN
 	2    6050 3800
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62C27E6F
+P 1000 3400
+F 0 "#PWR?" H 1000 3150 50  0001 C CNN
+F 1 "GND" V 900 3400 50  0000 R CNN
+F 2 "" H 1000 3400 50  0001 C CNN
+F 3 "" H 1000 3400 50  0001 C CNN
+	1    1000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62C3662E
+P 1000 5100
+F 0 "#PWR?" H 1000 4850 50  0001 C CNN
+F 1 "GND" V 900 5100 50  0000 R CNN
+F 2 "" H 1000 5100 50  0001 C CNN
+F 3 "" H 1000 5100 50  0001 C CNN
+	1    1000 5100
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

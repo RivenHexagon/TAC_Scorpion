@@ -1,7 +1,7 @@
 # TAC_Scorpion
 ## Mixing Console S1000 Channel Modification
 
-This modification **splits** the TAC Scorpion S1000 channel **modules** into three **groups** and **modifies** them accordingly:
+This modification **splits** the TAC Scorpion **S1000** channel **modules** into three **groups** and **modifies** them accordingly:
 
 *   **Group 1**: AML-16-007 ***Mic Input*** Modification<br>
     <http://www.audiomaintenance.com/acatalog/AML-16-007_extended_info.html>
@@ -14,9 +14,9 @@ This modification **splits** the TAC Scorpion S1000 channel **modules** into thr
 For each modification the **circuit diagram** of the **S1000** module is **redrawn**, reflecting the changes made.
 
 ### New Connector Cards
-Further more, all **connector cards** are **redesigned**, providing a single layer **PCB layout** for **DIY** manuafcturing. This gives slight improvemants and allowes for replacement of old **corroded** connectors with **new** gold plated components.
+Further more, all **connector cards** are **redesigned**, providing a single layer **PCB layout** for **DIY** manuafcturing. It has slight improvements and allowes for the replacement of old **corroded** connectors with **new** gold plated components.
 
 ### This Repo
-This repository provides all the **design resources** created for this project. The majority of the modifications are **based** on the reverse engineering of the above linked **Audio Maintenance Limited** products and the **Sound Sculptor** Kit.
+This repository provides all the **design resources** created for this project. The majority of the modifications are **based** on the reverse engineering of the above linked **Audio Maintenance Limited** products and the **Sound Sculptor** kit.
 
 

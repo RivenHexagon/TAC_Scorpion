@@ -1329,17 +1329,6 @@ Wire Wire Line
 Wire Wire Line
 	13850 2300 13700 2300
 Connection ~ 13850 2500
-$Comp
-L Device:CP #C20
-U 1 1 6344089E
-P 14050 2900
-F 0 "#C20" H 14250 2950 50  0000 C CNN
-F 1 "100u 10V" H 14350 2850 50  0000 C CNN
-F 2 "" H 14088 2750 50  0001 C CNN
-F 3 "~" H 14050 2900 50  0001 C CNN
-	1    14050 2900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	13900 2900 13850 2900
 Connection ~ 13850 2900
@@ -1347,7 +1336,7 @@ $Comp
 L Device:R #R23
 U 1 1 6346D44C
 P 14250 3100
-F 0 "#R23" V 14150 3000 50  0000 L CNN
+F 0 "#R23" V 14350 3000 50  0000 L CNN
 F 1 "100k" V 14250 3000 50  0000 L CNN
 F 2 "" V 14180 3100 50  0001 C CNN
 F 3 "~" H 14250 3100 50  0001 C CNN
@@ -1809,7 +1798,7 @@ F 3 "~" H 8300 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 8550 4800 0    50   ~ 0
-Microphone Input Modification\nPCB: AML-07-048 (Rev 4)\nby Langley Design
+Microphone Input Modification\nPCB: AML-07-048 (Rev 4)\nby AML & Langley Design
 $Comp
 L Device:R *R42
 U 1 1 634B3BA6
@@ -2445,7 +2434,7 @@ F 3 "~" H 10600 2850 50  0001 C CNN
 	1    10600 2850
 	1    0    0    -1  
 $EndComp
-Text Notes 18700 14650 0    50   ~ 0
+Text Notes 18700 14550 0    50   ~ 0
 Resistors prefixed * are part of DIL resistor packages.
 $Comp
 L Amplifier_Operational:TL072 U4
@@ -2514,33 +2503,11 @@ F 3 "~" H 21150 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C20
-U 1 1 6314D82F
-P 20550 2150
-F 0 "C20" V 20500 2025 50  0000 C CNN
-F 1 "u47" V 20600 2025 50  0000 C CNN
-F 2 "" H 20588 2000 50  0001 C CNN
-F 3 "~" H 20550 2150 50  0001 C CNN
-	1    20550 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 631612B7
-P 20950 2150
-F 0 "C21" V 20900 2025 50  0000 C CNN
-F 1 "u47" V 21000 2025 50  0000 C CNN
-F 2 "" H 20988 2000 50  0001 C CNN
-F 3 "~" H 20950 2150 50  0001 C CNN
-	1    20950 2150
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:CP C22
 U 1 1 631DF9E4
 P 20550 2750
 F 0 "C22" H 20700 2850 50  0000 R CNN
-F 1 "100u 25V" H 20700 2675 50  0000 R CNN
+F 1 "25V 100u" H 20750 2650 50  0000 R CNN
 F 2 "" H 20588 2600 50  0001 C CNN
 F 3 "~" H 20550 2750 50  0001 C CNN
 	1    20550 2750
@@ -2833,10 +2800,10 @@ Connection ~ 1650 4000
 Wire Wire Line
 	1650 4000 1650 3250
 $Comp
-L Device:R R2
+L Device:R **R2
 U 1 1 62DA61F1
 P 1850 4200
-F 0 "R2" V 1800 4350 50  0000 C CNN
+F 0 "**R2" V 1800 4350 50  0000 C CNN
 F 1 "1k" V 1850 4200 50  0000 C CNN
 F 2 "" V 1780 4200 50  0001 C CNN
 F 3 "~" H 1850 4200 50  0001 C CNN
@@ -2844,10 +2811,10 @@ F 3 "~" H 1850 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R3
+L Device:R **R3
 U 1 1 62DA6DD8
 P 1850 4300
-F 0 "R3" V 1900 4450 50  0000 C CNN
+F 0 "**R3" V 1900 4100 50  0000 C CNN
 F 1 "3k" V 1850 4300 50  0000 C CNN
 F 2 "" V 1780 4300 50  0001 C CNN
 F 3 "~" H 1850 4300 50  0001 C CNN
@@ -2999,4 +2966,39 @@ F 3 "" H 2600 2950 50  0001 C CNN
 $EndComp
 Text Notes 2950 4550 0    50   ~ 0
 PCB: RI277D\nby Riven Hexagon
+Text Notes 18700 14650 0    50   ~ 0
+Resistors prefixed ** are part the RI277 connector card.
+$Comp
+L Device:C C20
+U 1 1 6314D82F
+P 20550 2150
+F 0 "C20" V 20500 2275 50  0000 C CNN
+F 1 "100  u47" V 20600 2150 50  0000 C CNN
+F 2 "" H 20588 2000 50  0001 C CNN
+F 3 "~" H 20550 2150 50  0001 C CNN
+	1    20550 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 631612B7
+P 20950 2150
+F 0 "C21" V 20900 2275 50  0000 C CNN
+F 1 "100  u47" V 21000 2150 50  0000 C CNN
+F 2 "" H 20988 2000 50  0001 C CNN
+F 3 "~" H 20950 2150 50  0001 C CNN
+	1    20950 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP #C20
+U 1 1 6344089E
+P 14050 2900
+F 0 "#C20" H 14250 2850 50  0000 C CNN
+F 1 "10V      100u" H 14075 2950 50  0000 C CNN
+F 2 "" H 14088 2750 50  0001 C CNN
+F 3 "~" H 14050 2900 50  0001 C CNN
+	1    14050 2900
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

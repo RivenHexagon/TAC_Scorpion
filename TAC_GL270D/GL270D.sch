@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GL270D-rescue:Conn_01x10-Connector_Generic J1
+L GL270D-rescue:Conn_01x10-Connector_Generic J2
 U 1 1 62BF20E1
 P 4600 3500
-F 0 "J1" H 4600 4000 50  0000 C CNN
+F 0 "J2" H 4600 4000 50  0000 C CNN
 F 1 "Ribbon Cable" V 4700 3450 50  0000 C CNN
 F 2 "" H 4600 3500 50  0001 C CNN
 F 3 "~" H 4600 3500 50  0001 C CNN
@@ -1539,7 +1539,7 @@ $Comp
 L Amplifier_Operational:TL072 U2
 U 2 1 62C62D77
 P 15700 3100
-F 0 "U2" H 15850 3250 50  0000 C CNN
+F 0 "U2" H 15800 3250 50  0000 C CNN
 F 1 "TL072" H 15650 3100 50  0000 C CNN
 F 2 "" H 15700 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 15700 3100 50  0001 C CNN
@@ -1867,7 +1867,7 @@ $Comp
 L Amplifier_Operational:TL072 U2
 U 1 1 636140E1
 P 16800 3750
-F 0 "U2" H 16950 3900 50  0000 C CNN
+F 0 "U2" H 16900 3900 50  0000 C CNN
 F 1 "TL072" H 16750 3750 50  0000 C CNN
 F 2 "" H 16800 3750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 16800 3750 50  0001 C CNN
@@ -1999,7 +1999,7 @@ $Comp
 L Amplifier_Operational:TL072 U3
 U 2 1 636058EC
 P 17700 3200
-F 0 "U3" H 17850 3350 50  0000 C CNN
+F 0 "U3" H 17800 3350 50  0000 C CNN
 F 1 "TL072" H 17650 3200 50  0000 C CNN
 F 2 "" H 17700 3200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 17700 3200 50  0001 C CNN
@@ -2156,7 +2156,7 @@ $Comp
 L Amplifier_Operational:TL072 U3
 U 1 1 63C4C120
 P 18800 3850
-F 0 "U3" H 18950 4000 50  0000 C CNN
+F 0 "U3" H 18900 4000 50  0000 C CNN
 F 1 "TL072" H 18750 3850 50  0000 C CNN
 F 2 "" H 18800 3850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 18800 3850 50  0001 C CNN
@@ -2273,7 +2273,7 @@ $Comp
 L Amplifier_Operational:TL072 U4
 U 2 1 63C4C169
 P 19700 3300
-F 0 "U4" H 19850 3450 50  0000 C CNN
+F 0 "U4" H 19800 3450 50  0000 C CNN
 F 1 "TL072" H 19650 3300 50  0000 C CNN
 F 2 "" H 19700 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 19700 3300 50  0001 C CNN
@@ -2738,10 +2738,10 @@ F 3 "~" H 1350 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L Connector_Generic:Conn_01x03 **J2
 U 1 1 62C7CAE4
 P 3050 2400
-F 0 "J2" H 3000 2600 50  0000 L CNN
+F 0 "**J2" H 2925 2600 50  0000 L CNN
 F 1 "Tape Return" H 3150 2600 50  0000 L CNN
 F 2 "" H 3050 2400 50  0001 C CNN
 F 3 "~" H 3050 2400 50  0001 C CNN
@@ -2760,10 +2760,10 @@ F 3 "~" H 3050 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GL270D-rescue:Conn_01x10-Connector_Generic J1
+L GL270D-rescue:Conn_01x10-Connector_Generic **J1
 U 1 1 62C7DBB9
 P 3050 3500
-F 0 "J1" H 3050 2900 50  0000 C CNN
+F 0 "**J1" H 3000 2900 50  0000 C CNN
 F 1 "Ribbon Cable" V 3150 3450 50  0000 C CNN
 F 2 "" H 3050 3500 50  0001 C CNN
 F 3 "~" H 3050 3500 50  0001 C CNN
@@ -2967,7 +2967,7 @@ $EndComp
 Text Notes 2950 4550 0    50   ~ 0
 PCB: RI277D\nby Riven Hexagon
 Text Notes 18700 14650 0    50   ~ 0
-Resistors prefixed ** are part the RI277 connector card.
+Components prefixed ** are part the RI277 connector card.
 $Comp
 L Device:C C20
 U 1 1 6314D82F
@@ -3000,5 +3000,786 @@ F 2 "" H 14088 2750 50  0001 C CNN
 F 3 "~" H 14050 2900 50  0001 C CNN
 	1    14050 2900
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R71
+U 1 1 642E9048
+P 4500 11750
+F 0 "R71" V 4400 11675 50  0000 L CNN
+F 1 "1k" V 4500 11700 50  0000 L CNN
+F 2 "" V 4430 11750 50  0001 C CNN
+F 3 "~" H 4500 11750 50  0001 C CNN
+	1    4500 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R70
+U 1 1 642F60B2
+P 4500 11350
+F 0 "R70" V 4400 11275 50  0000 L CNN
+F 1 "10k" V 4500 11275 50  0000 L CNN
+F 2 "" V 4430 11350 50  0001 C CNN
+F 3 "~" H 4500 11350 50  0001 C CNN
+	1    4500 11350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R72
+U 1 1 642F70F5
+P 4950 10950
+F 0 "R72" V 4850 10875 50  0000 L CNN
+F 1 "10k" V 4950 10875 50  0000 L CNN
+F 2 "" V 4880 10950 50  0001 C CNN
+F 3 "~" H 4950 10950 50  0001 C CNN
+	1    4950 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3904 Q1
+U 1 1 642F8167
+P 4850 11550
+F 0 "Q1" H 4750 11350 60  0000 L CNN
+F 1 "2N3904" V 5075 11375 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 5050 11750 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 5050 11850 60  0001 L CNN
+F 4 "2N3904CS-ND" H 5050 11950 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904" H 5050 12050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5050 12150 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5050 12250 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 5050 12350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" H 5050 12450 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V TO-92" H 5050 12550 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 5050 12650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5050 12750 60  0001 L CNN "Status"
+	1    4850 11550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3904 Q2
+U 1 1 642F8F60
+P 5400 11550
+F 0 "Q2" H 5300 11350 60  0000 L CNN
+F 1 "2N3904" V 5625 11375 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 5600 11750 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 5600 11850 60  0001 L CNN
+F 4 "2N3904CS-ND" H 5600 11950 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3904" H 5600 12050 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5600 12150 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 5600 12250 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 5600 12350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3904/2N3904CS-ND/4806876" H 5600 12450 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 40V TO-92" H 5600 12550 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 5600 12650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5600 12750 60  0001 L CNN "Status"
+	1    5400 11550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 11500 4500 11550
+Wire Wire Line
+	4500 11550 4600 11550
+Connection ~ 4500 11550
+Wire Wire Line
+	4500 11550 4500 11600
+Wire Wire Line
+	5300 11750 5300 11850
+Wire Wire Line
+	5300 11850 4600 11850
+Wire Wire Line
+	4600 11850 4600 11550
+Connection ~ 4600 11550
+Wire Wire Line
+	4600 11550 4650 11550
+$Comp
+L power:GND #PWR?
+U 1 1 643AD6D8
+P 4500 12000
+F 0 "#PWR?" H 4500 11750 50  0001 C CNN
+F 1 "GND" H 4505 11827 50  0000 C CNN
+F 2 "" H 4500 12000 50  0001 C CNN
+F 3 "" H 4500 12000 50  0001 C CNN
+	1    4500 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 11900 4500 12000
+$Comp
+L power:GND #PWR?
+U 1 1 643E8496
+P 4950 12000
+F 0 "#PWR?" H 4950 11750 50  0001 C CNN
+F 1 "GND" H 4955 11827 50  0000 C CNN
+F 2 "" H 4950 12000 50  0001 C CNN
+F 3 "" H 4950 12000 50  0001 C CNN
+	1    4950 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 643E86BC
+P 5700 12000
+F 0 "#PWR?" H 5700 11750 50  0001 C CNN
+F 1 "GND" H 5705 11827 50  0000 C CNN
+F 2 "" H 5700 12000 50  0001 C CNN
+F 3 "" H 5700 12000 50  0001 C CNN
+	1    5700 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 11750 4950 12000
+Wire Wire Line
+	5600 11550 5700 11550
+Wire Wire Line
+	5700 11550 5700 11600
+$Comp
+L Device:R R73
+U 1 1 6445C93B
+P 5700 11750
+F 0 "R73" V 5600 11675 50  0000 L CNN
+F 1 "1k" V 5700 11700 50  0000 L CNN
+F 2 "" V 5630 11750 50  0001 C CNN
+F 3 "~" H 5700 11750 50  0001 C CNN
+	1    5700 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 11900 5700 12000
+$Comp
+L Device:D CR7
+U 1 1 64462CC1
+P 5500 11300
+F 0 "CR7" H 5625 11225 50  0000 C CNN
+F 1 "1N4148" H 5500 11400 50  0000 C CNN
+F 2 "" H 5500 11300 50  0001 C CNN
+F 3 "~" H 5500 11300 50  0001 C CNN
+	1    5500 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C30
+U 1 1 644A0E77
+P 5700 10950
+F 0 "C30" H 5725 11025 50  0000 L CNN
+F 1 "63V 2u2" H 5550 10850 50  0000 L CNN
+F 2 "" H 5738 10800 50  0001 C CNN
+F 3 "~" H 5700 10950 50  0001 C CNN
+	1    5700 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R74
+U 1 1 644A46D1
+P 5900 11300
+F 0 "R74" V 6000 11300 50  0000 C CNN
+F 1 "10k" V 5900 11300 50  0000 C CNN
+F 2 "" V 5830 11300 50  0001 C CNN
+F 3 "~" H 5900 11300 50  0001 C CNN
+	1    5900 11300
+	0    1    1    0   
+$EndComp
+$Comp
+L dk_Transistors-Bipolar-BJT-Single:2N3906 Q3
+U 1 1 644A9ABE
+P 6300 11300
+F 0 "Q3" H 6100 11150 60  0000 L CNN
+F 1 "2N3906" H 5900 11450 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3" H 6500 11500 60  0001 L CNN
+F 3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 6500 11600 60  0001 L CNN
+F 4 "2N3906CS-ND" H 6500 11700 60  0001 L CNN "Digi-Key_PN"
+F 5 "2N3906" H 6500 11800 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6500 11900 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 6500 12000 60  0001 L CNN "Family"
+F 8 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF" H 6500 12100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/central-semiconductor-corp/2N3906/2N3906CS-ND/4806878" H 6500 12200 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS PNP 40V TO-92" H 6500 12300 60  0001 L CNN "Description"
+F 11 "Central Semiconductor Corp" H 6500 12400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6500 12500 60  0001 L CNN "Status"
+	1    6300 11300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 11350 4950 11300
+Wire Wire Line
+	4950 11300 5300 11300
+Connection ~ 4950 11300
+Wire Wire Line
+	4950 11300 4950 11100
+Wire Wire Line
+	5300 11350 5300 11300
+Connection ~ 5300 11300
+Wire Wire Line
+	5300 11300 5350 11300
+Wire Wire Line
+	5650 11300 5700 11300
+Wire Wire Line
+	5700 11100 5700 11300
+Connection ~ 5700 11300
+Wire Wire Line
+	5700 11300 5750 11300
+Wire Wire Line
+	6100 11300 6050 11300
+$Comp
+L Device:R R75
+U 1 1 646CB39E
+P 6400 10950
+F 0 "R75" V 6300 10875 50  0000 L CNN
+F 1 "470R" V 6400 10850 50  0000 L CNN
+F 2 "" V 6330 10950 50  0001 C CNN
+F 3 "~" H 6400 10950 50  0001 C CNN
+	1    6400 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 10800 6400 10750
+Wire Wire Line
+	6400 10750 5700 10750
+Wire Wire Line
+	4950 10750 4950 10800
+Wire Wire Line
+	5700 10800 5700 10750
+Connection ~ 5700 10750
+Wire Wire Line
+	5700 10750 4950 10750
+$Comp
+L Device:R R76
+U 1 1 648BC75B
+P 6400 11750
+F 0 "R76" V 6300 11675 50  0000 L CNN
+F 1 "3k" V 6400 11700 50  0000 L CNN
+F 2 "" V 6330 11750 50  0001 C CNN
+F 3 "~" H 6400 11750 50  0001 C CNN
+	1    6400 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED CR6
+U 1 1 648BD4F3
+P 6050 11950
+F 0 "CR6" H 6050 11850 50  0000 C CNN
+F 1 "YL" H 6050 12050 50  0000 C CNN
+F 2 "" H 6050 11950 50  0001 C CNN
+F 3 "~" H 6050 11950 50  0001 C CNN
+	1    6050 11950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 11500 6400 11600
+Wire Wire Line
+	6400 11900 6400 11950
+Wire Wire Line
+	6400 11950 6200 11950
+$Comp
+L power:VCC #PWR?
+U 1 1 649E5916
+P 4000 9850
+F 0 "#PWR?" H 4000 9700 50  0001 C CNN
+F 1 "VCC" V 4015 9977 50  0000 L CNN
+F 2 "" H 4000 9850 50  0001 C CNN
+F 3 "" H 4000 9850 50  0001 C CNN
+	1    4000 9850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 649E8ECC
+P 8500 11100
+F 0 "J3" H 8500 10800 50  0000 C CNN
+F 1 "Taper Fader" V 8600 11050 50  0000 C CNN
+F 2 "" H 8500 11100 50  0001 C CNN
+F 3 "~" H 8500 11100 50  0001 C CNN
+	1    8500 11100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 64A5B242
+P 4000 11950
+F 0 "#PWR?" H 4000 11800 50  0001 C CNN
+F 1 "VDD" V 4015 12078 50  0000 L CNN
+F 2 "" H 4000 11950 50  0001 C CNN
+F 3 "" H 4000 11950 50  0001 C CNN
+	1    4000 11950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 11950 4000 11950
+$Comp
+L Device:R *R54
+U 1 1 64B08483
+P 9150 11750
+F 0 "*R54" V 9250 11650 50  0000 L CNN
+F 1 "10k" V 9150 11675 50  0000 L CNN
+F 2 "" V 9080 11750 50  0001 C CNN
+F 3 "~" H 9150 11750 50  0001 C CNN
+	1    9150 11750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64B10D3E
+P 9100 12000
+F 0 "#PWR?" H 9100 11750 50  0001 C CNN
+F 1 "GND" H 9105 11827 50  0000 C CNN
+F 2 "" H 9100 12000 50  0001 C CNN
+F 3 "" H 9100 12000 50  0001 C CNN
+	1    9100 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R *R53
+U 1 1 64B1251E
+P 9050 11750
+F 0 "*R53" V 8950 11650 50  0000 L CNN
+F 1 "10k" V 9050 11675 50  0000 L CNN
+F 2 "" V 8980 11750 50  0001 C CNN
+F 3 "~" H 9050 11750 50  0001 C CNN
+	1    9050 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 11950 9050 11900
+Wire Wire Line
+	9150 11950 9150 11900
+Wire Wire Line
+	9100 12000 9100 11950
+Wire Wire Line
+	9100 11950 9050 11950
+Wire Wire Line
+	9100 11950 9150 11950
+Connection ~ 9100 11950
+$Comp
+L Device:R R59
+U 1 1 64D648DD
+P 9450 11550
+F 0 "R59" V 9550 11550 50  0000 C CNN
+F 1 "22k" V 9450 11550 50  0000 C CNN
+F 2 "" V 9380 11550 50  0001 C CNN
+F 3 "~" H 9450 11550 50  0001 C CNN
+	1    9450 11550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 64D63427
+P 9450 11350
+F 0 "C28" V 9400 11475 50  0000 C CNN
+F 1 "10p" V 9500 11475 50  0000 C CNN
+F 2 "" H 9488 11200 50  0001 C CNN
+F 3 "~" H 9450 11350 50  0001 C CNN
+	1    9450 11350
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Operational:TL072 U5
+U 2 1 64D8DC05
+P 9450 11100
+F 0 "U5" H 9550 11250 50  0000 C CNN
+F 1 "TL072" H 9400 11100 50  0000 C CNN
+F 2 "" H 9450 11100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9450 11100 50  0001 C CNN
+	2    9450 11100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C27
+U 1 1 64E5EF57
+P 8900 11000
+F 0 "C27" H 8925 11100 50  0000 L CNN
+F 1 "25V 100u" H 8750 10900 50  0000 L CNN
+F 2 "" H 8938 10850 50  0001 C CNN
+F 3 "~" H 8900 11000 50  0001 C CNN
+	1    8900 11000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9300 11550 9150 11550
+Wire Wire Line
+	9150 11550 9150 11350
+Wire Wire Line
+	9300 11350 9150 11350
+Connection ~ 9150 11350
+Wire Wire Line
+	9150 11350 9150 11200
+Wire Wire Line
+	9600 11350 9750 11350
+Wire Wire Line
+	9750 11350 9750 11100
+Wire Wire Line
+	9600 11550 9750 11550
+Wire Wire Line
+	9750 11550 9750 11350
+Connection ~ 9750 11350
+Wire Wire Line
+	9150 11600 9150 11550
+Connection ~ 9150 11550
+Wire Wire Line
+	9050 11600 9050 11000
+Wire Wire Line
+	9150 11000 9050 11000
+Connection ~ 9050 11000
+Connection ~ 9750 11100
+Wire Wire Line
+	8750 11000 8700 11000
+NoConn ~ 8700 11100
+$Comp
+L power:GND #PWR?
+U 1 1 62FEAB74
+P 8750 12000
+F 0 "#PWR?" H 8750 11750 50  0001 C CNN
+F 1 "GND" H 8755 11827 50  0000 C CNN
+F 2 "" H 8750 12000 50  0001 C CNN
+F 3 "" H 8750 12000 50  0001 C CNN
+	1    8750 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 12000 8750 11200
+Wire Wire Line
+	8750 11200 8700 11200
+$Comp
+L Switch:SW_DPDT_x2 SW16
+U 1 1 6303371E
+P 8050 10650
+F 0 "SW16" H 7950 10750 50  0001 C CNN
+F 1 "SW_DPDT_x2" H 8250 10650 50  0001 C CNN
+F 2 "" H 8050 10650 50  0001 C CNN
+F 3 "~" H 8050 10650 50  0001 C CNN
+	1    8050 10650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW16
+U 2 1 6303454D
+P 8050 11050
+F 0 "SW16" H 7950 11150 50  0001 C CNN
+F 1 "SW_DPDT_x2" H 8250 11050 50  0001 C CNN
+F 2 "" H 8050 11050 50  0001 C CNN
+F 3 "~" H 8050 11050 50  0001 C CNN
+	2    8050 11050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 10900 8700 10650
+Wire Wire Line
+	8700 10650 8250 10650
+$Comp
+L Switch:SW_DPDT_x2 SW17
+U 2 1 63258093
+P 8650 10250
+F 0 "SW17" H 8550 10350 50  0001 C CNN
+F 1 "SW_DPDT_x2" H 8850 10250 50  0001 C CNN
+F 2 "" H 8650 10250 50  0001 C CNN
+F 3 "~" H 8650 10250 50  0001 C CNN
+	2    8650 10250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW17
+U 1 1 63259C5B
+P 8650 9850
+F 0 "SW17" H 8550 9950 50  0001 C CNN
+F 1 "SW_DPDT_x2" H 8850 9850 50  0001 C CNN
+F 2 "" H 8650 9850 50  0001 C CNN
+F 3 "~" H 8650 9850 50  0001 C CNN
+	1    8650 9850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10250 10650 2    50   Input ~ 0
+to_S8_S9
+Wire Wire Line
+	8700 10650 10250 10650
+Connection ~ 8700 10650
+$Comp
+L power:GND #PWR?
+U 1 1 632EF6AA
+P 8300 12000
+F 0 "#PWR?" H 8300 11750 50  0001 C CNN
+F 1 "GND" H 8305 11827 50  0000 C CNN
+F 2 "" H 8300 12000 50  0001 C CNN
+F 3 "" H 8300 12000 50  0001 C CNN
+	1    8300 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 11050 8300 11050
+Wire Wire Line
+	8300 11050 8300 12000
+$Comp
+L Device:R *R100
+U 1 1 63339F10
+P 9050 10450
+F 0 "*R100" V 8950 10450 50  0000 C CNN
+F 1 "10k" V 9050 10450 50  0000 C CNN
+F 2 "" V 8980 10450 50  0001 C CNN
+F 3 "~" H 9050 10450 50  0001 C CNN
+	1    9050 10450
+	0    1    1    0   
+$EndComp
+Text GLabel 9250 10450 2    50   UnSpc ~ 0
+1
+NoConn ~ 7850 11150
+Wire Wire Line
+	8300 11050 8300 10850
+Connection ~ 8300 11050
+Wire Wire Line
+	8450 10150 8300 10150
+Wire Wire Line
+	8850 10250 8850 10050
+Wire Wire Line
+	8850 10050 8300 10050
+Connection ~ 8300 10150
+Wire Wire Line
+	8300 10150 8300 10050
+Wire Wire Line
+	8900 10450 8400 10450
+Wire Wire Line
+	8400 10450 8400 10350
+Wire Wire Line
+	8400 10350 8450 10350
+Wire Wire Line
+	7850 10750 7800 10750
+Wire Wire Line
+	7800 10750 7800 10850
+Wire Wire Line
+	7800 10850 8300 10850
+Connection ~ 8300 10850
+$Comp
+L Device:LED CR5
+U 1 1 63699D9A
+P 7750 11750
+F 0 "CR5" H 7750 11650 50  0000 C CNN
+F 1 "RD" H 7750 11850 50  0000 C CNN
+F 2 "" H 7750 11750 50  0001 C CNN
+F 3 "~" H 7750 11750 50  0001 C CNN
+	1    7750 11750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 10950 7750 10950
+Wire Wire Line
+	7750 10950 7750 11600
+$Comp
+L power:GND #PWR?
+U 1 1 636E9528
+P 7750 12000
+F 0 "#PWR?" H 7750 11750 50  0001 C CNN
+F 1 "GND" H 7755 11827 50  0000 C CNN
+F 2 "" H 7750 12000 50  0001 C CNN
+F 3 "" H 7750 12000 50  0001 C CNN
+	1    7750 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 12000 7750 11900
+Wire Wire Line
+	9250 10450 9200 10450
+Text Notes 9250 10400 0    50   ~ 0
+PFL/AFL\nCONTROL
+Wire Wire Line
+	8300 9750 8450 9750
+$Comp
+L Device:R *R99
+U 1 1 63A84DAE
+P 9050 9850
+F 0 "*R99" V 8950 9850 50  0000 C CNN
+F 1 "10k" V 9050 9850 50  0000 C CNN
+F 2 "" V 8980 9850 50  0001 C CNN
+F 3 "~" H 9050 9850 50  0001 C CNN
+	1    9050 9850
+	0    1    1    0   
+$EndComp
+Text GLabel 9250 9850 2    50   UnSpc ~ 0
+2
+Wire Wire Line
+	9250 9850 9200 9850
+Text Notes 9250 9800 0    50   ~ 0
+PFL/AFL\nSIGNAL
+Wire Wire Line
+	8900 9850 8850 9850
+$Comp
+L Device:R R65
+U 1 1 63B27277
+P 7750 10300
+F 0 "R65" V 7650 10225 50  0000 L CNN
+F 1 "1k" V 7750 10250 50  0000 L CNN
+F 2 "" V 7680 10300 50  0001 C CNN
+F 3 "~" H 7750 10300 50  0001 C CNN
+	1    7750 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 10450 7750 10950
+Connection ~ 7750 10950
+$Comp
+L Amplifier_Operational:TL072 U5
+U 1 1 63B76DF1
+P 6950 10550
+F 0 "U5" H 7050 10700 50  0000 C CNN
+F 1 "TL072" H 6900 10550 50  0000 C CNN
+F 2 "" H 6950 10550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6950 10550 50  0001 C CNN
+	1    6950 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C26
+U 1 1 63B79287
+P 7400 10550
+F 0 "C26" H 7425 10650 50  0000 L CNN
+F 1 "25V 100u" H 7250 10475 50  0000 L CNN
+F 2 "" H 7438 10400 50  0001 C CNN
+F 3 "~" H 7400 10550 50  0001 C CNN
+	1    7400 10550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R *R52
+U 1 1 649DAA92
+P 7550 11750
+F 0 "*R52" V 7450 11650 50  0000 L CNN
+F 1 "10k" V 7550 11675 50  0000 L CNN
+F 2 "" V 7480 11750 50  0001 C CNN
+F 3 "~" H 7550 11750 50  0001 C CNN
+	1    7550 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 11600 7550 10550
+Wire Wire Line
+	7550 10550 7850 10550
+Connection ~ 7550 10550
+Wire Wire Line
+	7250 10550 7250 10800
+Wire Wire Line
+	7250 10800 6650 10800
+Wire Wire Line
+	6650 10800 6650 10650
+Connection ~ 7250 10550
+Wire Wire Line
+	7550 10550 7550 9950
+Wire Wire Line
+	7550 9950 4500 9950
+Wire Wire Line
+	4500 9950 4500 11200
+$Comp
+L Device:R *R52
+U 1 1 64C6211D
+P 6550 11750
+F 0 "*R52" V 6650 11650 50  0000 L CNN
+F 1 "10k" V 6550 11675 50  0000 L CNN
+F 2 "" V 6480 11750 50  0001 C CNN
+F 3 "~" H 6550 11750 50  0001 C CNN
+	1    6550 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 11600 6550 10450
+Wire Wire Line
+	6550 10450 6650 10450
+$Comp
+L power:GND #PWR?
+U 1 1 64CB5854
+P 7550 12000
+F 0 "#PWR?" H 7550 11750 50  0001 C CNN
+F 1 "GND" H 7555 11827 50  0000 C CNN
+F 2 "" H 7550 12000 50  0001 C CNN
+F 3 "" H 7550 12000 50  0001 C CNN
+	1    7550 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64CB5D4C
+P 6550 12000
+F 0 "#PWR?" H 6550 11750 50  0001 C CNN
+F 1 "GND" H 6555 11827 50  0000 C CNN
+F 2 "" H 6550 12000 50  0001 C CNN
+F 3 "" H 6550 12000 50  0001 C CNN
+	1    6550 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 12000 7550 11900
+Wire Wire Line
+	6550 12000 6550 11900
+$Comp
+L Device:R R64
+U 1 1 64DD4229
+P 9750 9600
+F 0 "R64" V 9650 9525 50  0000 L CNN
+F 1 "47R" V 9750 9525 50  0000 L CNN
+F 2 "" V 9680 9600 50  0001 C CNN
+F 3 "~" H 9750 9600 50  0001 C CNN
+	1    9750 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 10400 6550 10450
+Connection ~ 6550 10450
+Wire Wire Line
+	4800 3900 6550 3900
+Wire Wire Line
+	6550 3900 6550 10100
+Wire Wire Line
+	9750 9450 9750 9400
+Wire Wire Line
+	9750 9400 6650 9400
+Wire Wire Line
+	6650 9400 6650 4000
+Wire Wire Line
+	6650 4000 4800 4000
+Wire Wire Line
+	8450 9950 7550 9950
+Text Notes 5300 10700 0    100  ~ 0
+OVERLOAD
+Wire Notes Line
+	8050 11000 8050 10450
+Text Notes 7950 10450 0    50   ~ 0
+SW16\nMUTE
+Wire Notes Line
+	8650 10200 8650 9650
+Text Notes 8550 9650 0    50   ~ 0
+SW17\n PFL
+$Comp
+L Device:CP C25
+U 1 1 64E2F671
+P 6550 10250
+F 0 "C25" V 6500 10050 50  0000 L CNN
+F 1 "25V   100u" V 6600 10000 50  0000 L CNN
+F 2 "" H 6588 10100 50  0001 C CNN
+F 3 "~" H 6550 10250 50  0001 C CNN
+	1    6550 10250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9750 10700 9750 9750
+Wire Wire Line
+	9750 11000 9750 11100
+Connection ~ 8300 10050
+Wire Wire Line
+	8300 10050 8300 9750
+Wire Wire Line
+	8300 10150 8300 10850
+Connection ~ 7550 9950
+Wire Wire Line
+	7750 10150 7750 9850
+Wire Wire Line
+	7750 9850 6400 9850
+Wire Wire Line
+	6400 10750 6400 9850
+Connection ~ 6400 10750
+Connection ~ 6400 9850
+Wire Wire Line
+	6400 9850 4000 9850
+$Comp
+L Device:CP C29
+U 1 1 64E599B5
+P 9750 10850
+F 0 "C29" H 9775 10950 50  0000 L CNN
+F 1 "25V 100u" H 9600 10750 50  0000 L CNN
+F 2 "" H 9788 10700 50  0001 C CNN
+F 3 "~" H 9750 10850 50  0001 C CNN
+	1    9750 10850
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

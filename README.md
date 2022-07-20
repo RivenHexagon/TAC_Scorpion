@@ -11,7 +11,7 @@ This modification **splits** the TAC Scorpion **S1000** channel **modules** into
     <https://www.soundskulptor.com/en/proddetail.php?prod=SK25>
 
 ### New Circuit Diagrams
-For each modification the **circuit diagram** of the **S1000** module is **redrawn**, reflecting the changes made.
+For each modification the **circuit diagram** of the **S1000** module (PBC GL270D) is **redrawn**, reflecting the changes made.
 
 ### New Connector Cards
 Further more, all **connector cards** are **redesigned**, providing a single layer **PCB layout** for **DIY** manuafcturing. It has slight improvements and allowes for the replacement of old **corroded** connectors with **new** gold plated components.

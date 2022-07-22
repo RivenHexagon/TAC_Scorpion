@@ -1,7 +1,7 @@
 # TAC_Scorpion
-## Mixing Console S1000 Channel Modification
+## Mixing Console S1100 Channel Modification
 
-This modification **splits** the TAC Scorpion **S1000** channel **modules** into three **groups** and **modifies** them accordingly:
+This modification **splits** the TAC Scorpion **S1100** channel **modules** into three **groups** and **modifies** them accordingly:
 
 *   **Group 1**: AML-16-007 ***Mic Input*** Modification<br>
     <http://www.audiomaintenance.com/acatalog/AML-16-007_extended_info.html>
@@ -11,7 +11,7 @@ This modification **splits** the TAC Scorpion **S1000** channel **modules** into
     <https://www.soundskulptor.com/en/proddetail.php?prod=SK25>
 
 ### New Circuit Diagrams
-For each modification the **circuit diagram** of the **S1000** module (PBC GL270D) is **redrawn**, reflecting the changes made.
+For each modification the **circuit diagram** of the **S1100** module (PBC GL270D) is **redrawn**, reflecting the changes made.
 
 ### New Connector Cards
 Further more, all **connector cards** are **redesigned**, providing a single layer **PCB layout** for **DIY** manuafcturing. It has slight improvements and allowes for the replacement of old **corroded** connectors with **new** gold plated components.

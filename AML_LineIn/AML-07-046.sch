@@ -366,7 +366,7 @@ F 1 "22µF" H 3650 2350 50  0000 L CNN
 F 2 "" H 3988 2250 50  0001 C CNN
 F 3 "~" H 3950 2400 50  0001 C CNN
 	1    3950 2400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J7

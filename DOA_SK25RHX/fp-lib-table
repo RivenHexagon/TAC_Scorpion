@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TAC)(type KiCad)(uri /home/user0/Projects/TAC/Circuit-Boards/TAC_KiCad_lib/local-footprints/TAC.pretty)(options "")(descr ""))
+)

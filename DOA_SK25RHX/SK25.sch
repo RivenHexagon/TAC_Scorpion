@@ -714,58 +714,12 @@ Wire Wire Line
 	7500 5900 7500 5800
 Wire Wire Line
 	7500 5800 7600 5800
-Wire Wire Line
-	4000 5000 4000 5100
-Wire Wire Line
-	4000 5400 4000 5500
-Wire Wire Line
-	3000 5000 3000 5100
-Wire Wire Line
-	3000 5400 3000 5500
-Wire Wire Line
-	3000 5500 3250 5500
-Connection ~ 3250 5500
-Wire Wire Line
-	3250 5250 3250 5500
-Wire Wire Line
-	3150 5250 3250 5250
-Wire Wire Line
-	3750 5500 4000 5500
-Wire Wire Line
-	3250 5500 3750 5500
-Connection ~ 3750 5500
-Wire Wire Line
-	3750 5250 3750 5500
-Wire Wire Line
-	3850 5250 3750 5250
-$Comp
-L Device:R_POT RV5
-U 1 1 5FEB1771
-P 4000 5250
-F 0 "RV5" H 3930 5296 50  0000 R CNN
-F 1 "2k" H 3930 5205 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Z_Horizontal" H 4000 5250 50  0001 C CNN
-F 3 "~" H 4000 5250 50  0001 C CNN
-	1    4000 5250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT RV4
-U 1 1 5FE75F1A
-P 3000 5250
-F 0 "RV4" H 2930 5296 50  0000 R CNN
-F 1 "2k" H 2930 5205 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Z_Horizontal" H 3000 5250 50  0001 C CNN
-F 3 "~" H 3000 5250 50  0001 C CNN
-	1    3000 5250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R R5
 U 1 1 5FDEEF54
 P 4000 4850
 F 0 "R5" H 4070 4896 50  0000 L CNN
-F 1 "470R" H 4070 4805 50  0000 L CNN
+F 1 "2k2" H 4070 4805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3930 4850 50  0001 C CNN
 F 3 "~" H 4000 4850 50  0001 C CNN
 	1    4000 4850
@@ -776,45 +730,31 @@ L Device:R R4
 U 1 1 5FDEE816
 P 3000 4850
 F 0 "R4" H 3070 4896 50  0000 L CNN
-F 1 "470R" H 3070 4805 50  0000 L CNN
+F 1 "2k2" H 3070 4805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2930 4850 50  0001 C CNN
 F 3 "~" H 3000 4850 50  0001 C CNN
 	1    3000 4850
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3500 2000 3500 1900
-Wire Wire Line
-	3500 1600 3500 1500
-Wire Wire Line
-	3750 1500 3850 1500
-Wire Wire Line
-	3500 1500 3750 1500
-Connection ~ 3750 1500
-Wire Wire Line
-	3750 1750 3750 1500
-Wire Wire Line
-	3650 1750 3750 1750
-$Comp
-L Device:R_POT RV1
-U 1 1 5FE73318
-P 3500 1750
-F 0 "RV1" H 3430 1704 50  0000 R CNN
-F 1 "2k" H 3430 1795 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266Z_Horizontal" H 3500 1750 50  0001 C CNN
-F 3 "~" H 3500 1750 50  0001 C CNN
-	1    3500 1750
-	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5FDEB6A1
 P 4000 1500
 F 0 "R1" V 3793 1500 50  0000 C CNN
-F 1 "470R" V 3884 1500 50  0000 C CNN
+F 1 "2k2" V 3884 1500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3930 1500 50  0001 C CNN
 F 3 "~" H 4000 1500 50  0001 C CNN
 	1    4000 1500
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3500 1500 3850 1500
+Wire Wire Line
+	3500 1500 3500 2000
+Wire Wire Line
+	3000 5500 4000 5500
+Wire Wire Line
+	3000 5000 3000 5500
+Wire Wire Line
+	4000 5000 4000 5500
 $EndSCHEMATC

@@ -656,7 +656,7 @@
   )
 
   (module Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 62ED9F7B)
-    (at 147.32 97.79)
+    (at 148.59 97.79)
     (descr "solder Pin_ with flat fork, hole diameter 1.1mm, length 8.5mm, width 2.5mm")
     (tags "solder Pin_ with flat fork")
     (path /62FAE296)
@@ -691,7 +691,7 @@
   )
 
   (module Connector_Pin:Pin_D1.1mm_L8.5mm_W2.5mm_FlatFork (layer F.Cu) (tedit 5A1DC085) (tstamp 62ED716E)
-    (at 147.32 92.71)
+    (at 148.59 92.71)
     (descr "solder Pin_ with flat fork, hole diameter 1.1mm, length 8.5mm, width 2.5mm")
     (tags "solder Pin_ with flat fork")
     (path /62FAA65B)
@@ -1622,9 +1622,9 @@
     )
   )
 
-  (gr_line (start 144.145 80.645) (end 173.355 80.645) (layer Edge.Cuts) (width 0.05) (tstamp 62ED9FE4))
-  (gr_line (start 144.145 109.855) (end 144.145 80.645) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 173.355 109.855) (end 144.145 109.855) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 173.355 80.645) (end 173.355 109.855) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 143.51 110.49) (end 173.99 110.49) (layer Edge.Cuts) (width 0.05) (tstamp 62EDF08D))
+  (gr_line (start 143.51 80.01) (end 143.51 110.49) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 173.99 80.01) (end 143.51 80.01) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 173.99 110.49) (end 173.99 80.01) (layer Edge.Cuts) (width 0.05))
 
 )

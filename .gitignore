@@ -2,5 +2,5 @@
 *cache
 *cache.lib
 **/*-backups/
-_autosave-*
+*autosave-*
 \#auto_saved_files#

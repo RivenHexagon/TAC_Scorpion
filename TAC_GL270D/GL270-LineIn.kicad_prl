@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -64,11 +64,11 @@
       35,
       36
     ],
-    "visible_layers": "ffd7f53_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "SK25.kicad_prl",
+    "filename": "GL270-LineIn.kicad_prl",
     "version": 3
   },
   "project": {

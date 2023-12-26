@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "AML-07-046-rescue")(type "Legacy")(uri "${KIPRJMOD}/AML-07-046-rescue.lib")(options "")(descr ""))
+)

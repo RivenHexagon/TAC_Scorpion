@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N3904-dk_Transistors-Bipolar-BJT-Single
+F https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF
+$ENDCMP
+#
+$CMP 2N3906-dk_Transistors-Bipolar-BJT-Single
+F https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=LSSGP072.PDF
+$ENDCMP
+#
+#End Doc Library

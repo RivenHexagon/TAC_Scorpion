@@ -3,4 +3,5 @@
   (lib (name "GL270D-rescue")(type "Legacy")(uri "${KIPRJMOD}/GL270D-rescue.lib")(options "")(descr ""))
   (lib (name "GL270-LineIn-rescue")(type "KiCad")(uri "${KIPRJMOD}/GL270-LineIn-rescue.kicad_sym")(options "")(descr ""))
   (lib (name "GL270-MicIn-rescue")(type "KiCad")(uri "${KIPRJMOD}/GL270-MicIn-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "TAC-DOA")(type "KiCad")(uri "${KIPRJMOD}/TAC-DOA.kicad_sym")(options "")(descr ""))
 )
